@@ -110,37 +110,6 @@ footer > button:hover {
     background-color: var(--primary-color);
 }
 
-
-/*Media-query Tablet */
-
-@media (max-width: 1024px)
-{
-    .contenedor {
-        display: grid;
-        grid-template-areas: "header golf1"
-        "header main"
-        "golf2 golf3"
-        "golf4 footer";
-
-    }
-}
-
-/* Media-query Movil */
-
-@media (max-width: 600px)
-{
-    .contenedor {
-        display: grid;
-        grid-template-areas: "header"
-        "golf1"
-        "golf2"
-        "main"
-        "golf3"
-        "golf4"
-        "footer";
-    }
-}
-
 /* Grid-Areas */
 
 .header {
@@ -171,4 +140,34 @@ footer > button:hover {
     grid-area: golf4;
 }
 
+
+/*Media-query Tablet */
+
+@media (max-width: 1024px)
+{
+    .contenedor {
+        display: grid;
+        grid-template-areas: "header golf1"
+        "header main"
+        "golf2 golf3"
+        "golf4 footer";
+
+    }
+}
+
+/* Media-query Movil */
+
+@media (max-width: 600px)
+{
+    .contenedor {
+        display: grid;
+        grid-template-areas: "header"
+        "golf1"
+        "golf2"
+        "main"
+        "golf3"
+        "golf4"
+        "footer";
+    }
+}
 
